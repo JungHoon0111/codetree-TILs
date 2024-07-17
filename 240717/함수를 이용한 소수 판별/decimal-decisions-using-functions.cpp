@@ -13,7 +13,7 @@ bool find(int n){
 void sol(int a, int b){
     int sub = 0;
     for(int i=a;i<=b;i++){
-        if(find(i)){
+        if(find(i)&&i!=1){
             sub+=i;
         }
     }
